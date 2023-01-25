@@ -7,6 +7,8 @@ function PlanetsListItem(props) {
 
   console.log("Planet", planet);
 
+  
+
   return <li>{planet.name} - First Film {firstFilm}</li>;
 }
 
